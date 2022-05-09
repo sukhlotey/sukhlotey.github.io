@@ -34,3 +34,10 @@ $(document).ready(function() {
     });
 
 });
+
+// Loader
+var preloader = document.getElementById("loading");
+
+function myload() {
+    preloader.style.display = "none";
+}
